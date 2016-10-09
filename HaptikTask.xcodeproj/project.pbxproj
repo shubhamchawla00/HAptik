@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F07F70A61DAA456100E9BD37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F07F70A51DAA456100E9BD37 /* main.m */; };
+		F07F70A91DAA456100E9BD37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F07F70A81DAA456100E9BD37 /* AppDelegate.m */; };
+		F07F70AC1DAA456100E9BD37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07F70AB1DAA456100E9BD37 /* ViewController.m */; };
+		F07F70AF1DAA456100E9BD37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F07F70AD1DAA456100E9BD37 /* Main.storyboard */; };
+		F07F70B11DAA456100E9BD37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07F70B01DAA456100E9BD37 /* Assets.xcassets */; };
+		F07F70B41DAA456100E9BD37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F07F70B21DAA456100E9BD37 /* LaunchScreen.storyboard */; };
+		F07F70BF1DAA456100E9BD37 /* HaptikTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F07F70BE1DAA456100E9BD37 /* HaptikTaskTests.m */; };
+		F07F70CA1DAA456100E9BD37 /* HaptikTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F07F70C91DAA456100E9BD37 /* HaptikTaskUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F07F70BB1DAA456100E9BD37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F07F70991DAA456100E9BD37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F07F70A01DAA456100E9BD37;
+			remoteInfo = HaptikTask;
+		};
+		F07F70C61DAA456100E9BD37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F07F70991DAA456100E9BD37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F07F70A01DAA456100E9BD37;
+			remoteInfo = HaptikTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F07F70A11DAA456100E9BD37 /* HaptikTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaptikTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07F70A51DAA456100E9BD37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F07F70A71DAA456100E9BD37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F07F70A81DAA456100E9BD37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F07F70AA1DAA456100E9BD37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F07F70AB1DAA456100E9BD37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F07F70AE1DAA456100E9BD37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F07F70B01DAA456100E9BD37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F07F70B31DAA456100E9BD37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F07F70B51DAA456100E9BD37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07F70BA1DAA456100E9BD37 /* HaptikTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaptikTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07F70BE1DAA456100E9BD37 /* HaptikTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaptikTaskTests.m; sourceTree = "<group>"; };
+		F07F70C01DAA456100E9BD37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07F70C51DAA456100E9BD37 /* HaptikTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaptikTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07F70C91DAA456100E9BD37 /* HaptikTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaptikTaskUITests.m; sourceTree = "<group>"; };
+		F07F70CB1DAA456100E9BD37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F07F709E1DAA456100E9BD37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F70B71DAA456100E9BD37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F70C21DAA456100E9BD37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F07F70981DAA456100E9BD37 = {
+			isa = PBXGroup;
+			children = (
+				F07F70A31DAA456100E9BD37 /* HaptikTask */,
+				F07F70BD1DAA456100E9BD37 /* HaptikTaskTests */,
+				F07F70C81DAA456100E9BD37 /* HaptikTaskUITests */,
+				F07F70A21DAA456100E9BD37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F07F70A21DAA456100E9BD37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F07F70A11DAA456100E9BD37 /* HaptikTask.app */,
+				F07F70BA1DAA456100E9BD37 /* HaptikTaskTests.xctest */,
+				F07F70C51DAA456100E9BD37 /* HaptikTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F07F70A31DAA456100E9BD37 /* HaptikTask */ = {
+			isa = PBXGroup;
+			children = (
+				F07F70A71DAA456100E9BD37 /* AppDelegate.h */,
+				F07F70A81DAA456100E9BD37 /* AppDelegate.m */,
+				F07F70AA1DAA456100E9BD37 /* ViewController.h */,
+				F07F70AB1DAA456100E9BD37 /* ViewController.m */,
+				F07F70AD1DAA456100E9BD37 /* Main.storyboard */,
+				F07F70B01DAA456100E9BD37 /* Assets.xcassets */,
+				F07F70B21DAA456100E9BD37 /* LaunchScreen.storyboard */,
+				F07F70B51DAA456100E9BD37 /* Info.plist */,
+				F07F70A41DAA456100E9BD37 /* Supporting Files */,
+			);
+			path = HaptikTask;
+			sourceTree = "<group>";
+		};
+		F07F70A41DAA456100E9BD37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F07F70A51DAA456100E9BD37 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F07F70BD1DAA456100E9BD37 /* HaptikTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				F07F70BE1DAA456100E9BD37 /* HaptikTaskTests.m */,
+				F07F70C01DAA456100E9BD37 /* Info.plist */,
+			);
+			path = HaptikTaskTests;
+			sourceTree = "<group>";
+		};
+		F07F70C81DAA456100E9BD37 /* HaptikTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F07F70C91DAA456100E9BD37 /* HaptikTaskUITests.m */,
+				F07F70CB1DAA456100E9BD37 /* Info.plist */,
+			);
+			path = HaptikTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F07F70A01DAA456100E9BD37 /* HaptikTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07F70CE1DAA456100E9BD37 /* Build configuration list for PBXNativeTarget "HaptikTask" */;
+			buildPhases = (
+				F07F709D1DAA456100E9BD37 /* Sources */,
+				F07F709E1DAA456100E9BD37 /* Frameworks */,
+				F07F709F1DAA456100E9BD37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaptikTask;
+			productName = HaptikTask;
+			productReference = F07F70A11DAA456100E9BD37 /* HaptikTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F07F70B91DAA456100E9BD37 /* HaptikTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07F70D11DAA456100E9BD37 /* Build configuration list for PBXNativeTarget "HaptikTaskTests" */;
+			buildPhases = (
+				F07F70B61DAA456100E9BD37 /* Sources */,
+				F07F70B71DAA456100E9BD37 /* Frameworks */,
+				F07F70B81DAA456100E9BD37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F07F70BC1DAA456100E9BD37 /* PBXTargetDependency */,
+			);
+			name = HaptikTaskTests;
+			productName = HaptikTaskTests;
+			productReference = F07F70BA1DAA456100E9BD37 /* HaptikTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F07F70C41DAA456100E9BD37 /* HaptikTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07F70D41DAA456100E9BD37 /* Build configuration list for PBXNativeTarget "HaptikTaskUITests" */;
+			buildPhases = (
+				F07F70C11DAA456100E9BD37 /* Sources */,
+				F07F70C21DAA456100E9BD37 /* Frameworks */,
+				F07F70C31DAA456100E9BD37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F07F70C71DAA456100E9BD37 /* PBXTargetDependency */,
+			);
+			name = HaptikTaskUITests;
+			productName = HaptikTaskUITests;
+			productReference = F07F70C51DAA456100E9BD37 /* HaptikTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F07F70991DAA456100E9BD37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Shubham Chawla";
+				TargetAttributes = {
+					F07F70A01DAA456100E9BD37 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4S5M98JYRB;
+						ProvisioningStyle = Automatic;
+					};
+					F07F70B91DAA456100E9BD37 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4S5M98JYRB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F07F70A01DAA456100E9BD37;
+					};
+					F07F70C41DAA456100E9BD37 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4S5M98JYRB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F07F70A01DAA456100E9BD37;
+					};
+				};
+			};
+			buildConfigurationList = F07F709C1DAA456100E9BD37 /* Build configuration list for PBXProject "HaptikTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F07F70981DAA456100E9BD37;
+			productRefGroup = F07F70A21DAA456100E9BD37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F07F70A01DAA456100E9BD37 /* HaptikTask */,
+				F07F70B91DAA456100E9BD37 /* HaptikTaskTests */,
+				F07F70C41DAA456100E9BD37 /* HaptikTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F07F709F1DAA456100E9BD37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07F70B41DAA456100E9BD37 /* LaunchScreen.storyboard in Resources */,
+				F07F70B11DAA456100E9BD37 /* Assets.xcassets in Resources */,
+				F07F70AF1DAA456100E9BD37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F70B81DAA456100E9BD37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F70C31DAA456100E9BD37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F07F709D1DAA456100E9BD37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07F70AC1DAA456100E9BD37 /* ViewController.m in Sources */,
+				F07F70A91DAA456100E9BD37 /* AppDelegate.m in Sources */,
+				F07F70A61DAA456100E9BD37 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F70B61DAA456100E9BD37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07F70BF1DAA456100E9BD37 /* HaptikTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F70C11DAA456100E9BD37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07F70CA1DAA456100E9BD37 /* HaptikTaskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F07F70BC1DAA456100E9BD37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F07F70A01DAA456100E9BD37 /* HaptikTask */;
+			targetProxy = F07F70BB1DAA456100E9BD37 /* PBXContainerItemProxy */;
+		};
+		F07F70C71DAA456100E9BD37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F07F70A01DAA456100E9BD37 /* HaptikTask */;
+			targetProxy = F07F70C61DAA456100E9BD37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F07F70AD1DAA456100E9BD37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F07F70AE1DAA456100E9BD37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F07F70B21DAA456100E9BD37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F07F70B31DAA456100E9BD37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F07F70CC1DAA456100E9BD37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F07F70CD1DAA456100E9BD37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F07F70CF1DAA456100E9BD37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4S5M98JYRB;
+				INFOPLIST_FILE = HaptikTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shubham.HaptikTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F07F70D01DAA456100E9BD37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4S5M98JYRB;
+				INFOPLIST_FILE = HaptikTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shubham.HaptikTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F07F70D21DAA456100E9BD37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4S5M98JYRB;
+				INFOPLIST_FILE = HaptikTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shubham.HaptikTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaptikTask.app/HaptikTask";
+			};
+			name = Debug;
+		};
+		F07F70D31DAA456100E9BD37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4S5M98JYRB;
+				INFOPLIST_FILE = HaptikTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shubham.HaptikTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaptikTask.app/HaptikTask";
+			};
+			name = Release;
+		};
+		F07F70D51DAA456100E9BD37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4S5M98JYRB;
+				INFOPLIST_FILE = HaptikTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shubham.HaptikTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HaptikTask;
+			};
+			name = Debug;
+		};
+		F07F70D61DAA456100E9BD37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4S5M98JYRB;
+				INFOPLIST_FILE = HaptikTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shubham.HaptikTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HaptikTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F07F709C1DAA456100E9BD37 /* Build configuration list for PBXProject "HaptikTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07F70CC1DAA456100E9BD37 /* Debug */,
+				F07F70CD1DAA456100E9BD37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07F70CE1DAA456100E9BD37 /* Build configuration list for PBXNativeTarget "HaptikTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07F70CF1DAA456100E9BD37 /* Debug */,
+				F07F70D01DAA456100E9BD37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F07F70D11DAA456100E9BD37 /* Build configuration list for PBXNativeTarget "HaptikTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07F70D21DAA456100E9BD37 /* Debug */,
+				F07F70D31DAA456100E9BD37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F07F70D41DAA456100E9BD37 /* Build configuration list for PBXNativeTarget "HaptikTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07F70D51DAA456100E9BD37 /* Debug */,
+				F07F70D61DAA456100E9BD37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F07F70991DAA456100E9BD37 /* Project object */;
+}
